@@ -1,7 +1,7 @@
-import Html from '../langs/Html'
-import Css from '../langs/Css'
-import Javascript from '../langs/Javascript'
-import Reacticon from '../langs/Reacticon'
+import Html from './icons/Html'
+import Css from './icons/Css'
+import Javascript from './icons/Javascript'
+import Reacticon from './icons/Reacticon'
 
 function Resume() {
   return (

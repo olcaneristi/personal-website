@@ -9,7 +9,7 @@ function Contact() {
         </a>
         <h3>
           If you wanna contact me, you can send e-mail
-          <span id="mail1"> (ogulcaneristi123 at gmail.com) </span>
+          <span className="mail1"> (ogulcaneristi123 at gmail.com) </span>
           or you can reach from my social media accounts.
         </h3>
       </div>
