@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { Component } from 'React'
+import React, { Component } from 'react'
 import Typist from 'react-typist'
 import Github from './icons/Github'
 import Linkedin from './icons/Linkedin'
