@@ -1,52 +1,23 @@
-# Example app with next-sass
+# Welcome
 
-This example demonstrates how to use Next.js' built-in Global Sass/Scss imports and Component-Level Sass/Scss modules support.
+That's website is my first Reactjs project with [NextJS](https://nextjs.org/)
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-next-sass)
-
-## How to use
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Getting Started
 
 ```bash
-npm init next-app --example with-next-sass with-next-sass-app
-# or
-yarn create next-app --example with-next-sass with-next-sass-app
-```
+$ npm run dev 
 
-### Download manually
+#or 
 
-Download the example:
-
+$ yarn dev
 ```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-next-sass
-cd with-next-sass
-```
 
-Install it and run:
 
+# install deps
 ```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
-
-Run production build with:
-
+$ npm install
 ```bash
-npm run build
-npm run start
-# or
-yarn build
-yarn start
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+Then go to [http://localhost:3000/] and see the results.
