@@ -79,13 +79,13 @@
       flex-direction: column;
     }
 
-    .row.item,
-    .row.item2 {
+    .edudesc,
+    .edudesc2 {
       padding-left: 0px;
       text-align: center;
     }
 
-    .header-col {
+    .title1 {
       width: auto;
       text-align: center !important;
     }
@@ -113,6 +113,24 @@
 
     svg {
       width: 50px !important;
+    }
+
+    div.row.cv{
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      text-align: center;
+
+      .main-col{
+        padding-left: 0px;
+      }
+
+      .title1{
+        padding-bottom: 20px;
+      }
+      .button2{
+        padding: 13px 26px;
+      }
     }
   }
 
@@ -216,13 +234,13 @@
       flex-direction: column;
     }
 
-    .row.item,
-    .row.item2 {
+    .edudesc,
+    .edudesc2 {
       padding-left: 0px;
       text-align: center;
     }
 
-    .header-col {
+    .title1 {
       width: auto;
       text-align: center !important;
       h1 {
@@ -253,6 +271,23 @@
 
     svg {
       width: 50px !important;
+    }
+    div.row.cv{
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      text-align: center;
+      
+      .main-col{
+        padding-left: 0px;
+      }
+
+      .title1{
+        padding-bottom: 20px;
+      }
+      .button2{
+        padding: 13px 26px;
+      }
     }
   }
 
@@ -346,13 +381,13 @@
       font-size: 100% !important;
     }
 
-    .row.item,
-    .row.item2 {
+    .edudesc,
+    .edudesc2{
       padding-left: 0px;
       text-align: center;
     }
 
-    .header-col {
+    .title1 {
       width: auto;
       text-align: center !important;
       h1 {
@@ -391,6 +426,23 @@
 
     p {
       line-height: 23px !important;
+    }
+    div.row.cv{
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      text-align: center;
+      
+      .main-col{
+        padding-left: 0px;
+      }
+
+      .title1{
+        padding-bottom: 20px;
+      }
+      .button2{
+        padding: 13px 26px;
+      }
     }
   }
 
@@ -458,6 +510,7 @@
 
   section#resume {
     width: 93% !important;
+    
   }
 
   section#contact {

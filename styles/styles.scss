@@ -165,20 +165,21 @@ section#about {
     margin-block-end: 25px;
   }
 
-  .header-col {
+  .title1 {
     width: 250px;
   }
   .main-col {
     width: 1000px;
   }
 
-  .row.item {
+  .edudesc {
     padding-left: 60px;
   }
 
-  .row.item2 {
+  .edudesc2 {
     margin-block-start: 3em;
     padding-left: 60px;
+  
   }
 
   .education {
@@ -202,12 +203,16 @@ section#about {
   .skills {
     display: flex;
     height: 100px;
+    margin-bottom: 40px;
+
+
   }
 
   ul {
     list-style: none;
     display: flex;
     margin-block-start: 0px;
+ 
   }
 
   ul li {
@@ -223,6 +228,29 @@ section#about {
     opacity: 100%;
     transition: all 0.5s ease;
   }
+
+  .cv{
+    display: flex;
+
+    .main-col{
+      padding-left: 70px;
+      padding-top: 10px;
+    }
+    .button2 {
+      padding: 13px 20px;
+      height: auto;
+      font-size: 17px;
+      font-weight: bold;
+      font-family: "Raleway", sans-serif;
+      color: black;
+      border-radius: 3px;
+      background-color: rgb(231, 228, 228);
+      border: 1px solid rgb(167, 160, 160);
+      box-shadow: 2px 2px 2px rgb(175, 202, 240);
+    }
+  }
+
+
 }
 
 // contact component
@@ -248,7 +276,7 @@ section#contact {
     font-size: 20 px;
     color: black;
     background-color: rgb(231, 228, 228);
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid rgb(167, 160, 160);
     box-shadow: 2px 2px 2px rgb(133, 158, 133);
   }

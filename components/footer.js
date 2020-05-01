@@ -41,7 +41,7 @@ function Footer() {
       </nav>
       <p>
         Made with Nextjs.{' '}
-        <a href="//github.com/olcaneristi" target="_blank">
+        <a href="//github.com/olcaneristi/nextjs-website" target="_blank">
           Click
         </a>{' '}
         for source codes.

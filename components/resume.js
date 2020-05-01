@@ -7,14 +7,14 @@ function Resume() {
   return (
     <section id="resume" className="contain">
       <div className="row education">
-        <div className="three columns header-col">
+        <div className="title1">
           <h1>
             <span>🎓Education</span>{' '}
           </h1>
         </div>
-        <div className="nine columns main-col">
-          <div className="row item">
-            <div className="twelve columns">
+        <div className="main-col">
+          <div className="edudesc">
+            <div className="headtitle">
               <h3>Management Information Systems</h3>
               <p className="info">
                 Akdeniz University
@@ -35,8 +35,8 @@ function Resume() {
               </p>
             </div>
           </div>
-          <div className="row item2">
-            <div className="twelve columns">
+          <div className="edudesc2">
+            <div className="headtitle">
               <h3>Web Programming</h3>
               <p className="info">
                 Tekirdag Zubeyde Hanim Anatolian Vocational High School
@@ -56,13 +56,13 @@ function Resume() {
       </div>
 
       <div className="row skills">
-        <div className="three columns header-col">
+        <div className="title1">
           <h1>
             {' '}
             <span>🏆Skills</span>{' '}
           </h1>
         </div>
-        <div className="nine columns main-col">
+        <div className="main-col">
           <ul>
             <li>
               <a>
@@ -86,6 +86,21 @@ function Resume() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="row cv">
+        <div className="title1">
+          <h1> 
+            <span>📝Resume</span>
+          </h1>
+          </div>
+          <div className="main-col">
+          <a href="//docs.google.com/document/d/1ZpwNkFS-brtZQKtk9DzhTWwG9S72hSOGyJ0jDjEYqOA/edit"
+          target="_blank">
+          <button className="button2">
+            <span>View my Resume 📍</span>
+          </button>
+          </a>
+          </div>
       </div>
     </section>
   )
