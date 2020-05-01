@@ -8,7 +8,7 @@ function Contact() {
           </button>
         </a>
         <h3>
-          If you wanna contact me, you can send e-mail
+          If you want to contact me, you can send e-mail
           <span className="mail1"> (ogulcaneristi123 at gmail.com) </span>
           or you can reach from my social media accounts.
         </h3>

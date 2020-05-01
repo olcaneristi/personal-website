@@ -13,15 +13,15 @@ function About() {
         projects from github for now. I'll add here as soon as possible.
         <br></br> I{' '}
         <Link href={'//twitter.com/olcaanersti'} prefetch={false}>
-          <a target="_blank">tweet</a>
+          <a target="_blank"><u>tweet</u></a>
         </Link>{' '}
         about all topics, my projects on{' '}
         <Link href={'//github.com/olcaneristi'} prefetch={false}>
-          <a target="_blank">github</a>
+          <a target="_blank"><u>github</u></a>
         </Link>{' '}
         and I writing blog on{' '}
         <Link href={'//medium.com/olcanblog'} prefetch={false}>
-          <a target="_blank">medium</a>
+          <a target="_blank"><u>medium</u></a>
         </Link>
         .{''}
       </p>
