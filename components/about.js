@@ -3,6 +3,7 @@ import Link from 'next/link'
 function About() {
   return (
     <section id="about" className="contain">
+      <img src="profilepic.jpg" width="175" height="175" alt="Ogulcan Eristi" />
       <p>
         I'm <span className="name">Ogulcan Eristi</span>. I'm Jr. Frontend
         Developer and studying Management Information Systems at Akdeniz
