@@ -1,5 +1,6 @@
 node_modules
 .next
-.vscode
-package-lock.json
+
 yarn.lock
+package-lock.json
+

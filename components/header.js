@@ -5,6 +5,9 @@ function Header() {
     <header>
       <nav>
         <ul>
+        <li>
+            <Scrollchor to="home">Home</Scrollchor>
+          </li>
           <li>
             <Scrollchor to="about">About</Scrollchor>
           </li>
