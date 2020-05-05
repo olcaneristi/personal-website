@@ -237,6 +237,7 @@ section#about {
       padding-top: 10px;
     }
     .button2 {
+      cursor: pointer;
       padding: 13px 20px;
       height: auto;
       font-size: 17px;
@@ -247,6 +248,11 @@ section#about {
       background-color: rgb(231, 228, 228);
       border: 1px solid rgb(167, 160, 160);
       box-shadow: 2px 2px 2px rgb(175, 202, 240);
+    }
+    .button2:hover {
+      transition: all 0.5s ease;
+      transform: translateY(4px);
+      background-color: rgb(195, 199, 202);
     }
   }
 

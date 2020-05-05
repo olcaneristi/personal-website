@@ -12,7 +12,7 @@ function About() {
         website with <i>Nextjs</i> and I think I succeeded. ✌️ You can reach my
         projects from github for now. I'll add here as soon as possible.
         <br></br> I{' '}
-        <Link href={'//twitter.com/olcaanersti'} prefetch={false}>
+        <Link href={'//twitter.com/ogulcaanX'} prefetch={false}>
           <a target="_blank"><u>tweet</u></a>
         </Link>{' '}
         about all topics, my projects on{' '}

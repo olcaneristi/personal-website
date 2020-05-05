@@ -30,7 +30,7 @@ class Home extends Component {
           <nav>
             <ul>
               <li>
-                <Link href="//twitter.com/olcaanersti">
+                <Link href="//twitter.com/ogulcaanX">
                   <a target="_blank">
                     <Twitter />
                   </a>
