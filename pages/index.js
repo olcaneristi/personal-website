@@ -9,6 +9,7 @@ import Head from 'next/head';
 export default () => (
   <div className="app">
     <Head>
+    <link rel="shortcut-icon" href="/public/favicon.ico"/>
         <title>Ogulcan Eristi </title>
 
         <meta name="title1" content="Ogulcan Eristi " />
@@ -17,12 +18,12 @@ export default () => (
 
         <meta
           name="keyword"
-          content="reactjs, react, javascript, js, nextjs, next, ogulcan, eristi, ogulcan eristi, junior, jr, frontend, developer, junior frontend"
+          content="reactjs, react, javascript, js, nextjs, next, ogulcan, eristi, ogulcan eristi, junior, jr, frontend, developer, frontend developer"
         />
 
         <meta
           name="description"
-          content="I'm ogulcan eristi. I'm junior frontend developer and MIS student."
+          content="I'm Ogulcan Eristi. I'm Jr. Frontend developer and MIS student."
         />
     </Head>
 
