@@ -31,7 +31,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="//medium.com/olcanblog">
+            <Link href="//medium.com/@olcaneristi">
               <a target="_blank">
                 <Medium />
               </a>

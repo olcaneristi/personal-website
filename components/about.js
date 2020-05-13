@@ -20,7 +20,7 @@ function About() {
           <a target="_blank"><u>github</u></a>
         </Link>{' '}
         and I writing blog on{' '}
-        <Link href={'//medium.com/olcanblog'} prefetch={false}>
+        <Link href={'//medium.com/@olcaneristi'} prefetch={false}>
           <a target="_blank"><u>medium</u></a>
         </Link>
         .{''}
