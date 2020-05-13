@@ -18,21 +18,21 @@ function Footer() {
           </li>
           <li>
             <Link href="//github.com/olcaneristi">
-              <a target="_blank">
+              <a target="_blank" rel="noopener noreferrer">
                 <Github />
               </a>
             </Link>
           </li>
           <li>
             <Link href="//linkedin.com/in/ogulcaneristi/">
-              <a target="_blank">
+              <a target="_blank" rel="noopener noreferrer">
                 <Linkedin />
               </a>
             </Link>
           </li>
           <li>
             <Link href="//medium.com/@olcaneristi">
-              <a target="_blank">
+              <a target="_blank" rel="noopener noreferrer">
                 <Medium />
               </a>
             </Link>
@@ -41,9 +41,11 @@ function Footer() {
       </nav>
       <p>
         Made with Nextjs.{' '}
-        <a href="//github.com/olcaneristi/website-next" target="_blank">
+        <Link href={'//github.com/olcaneristi/website-next'} prefetch={false}>
+          <a target="_blank" rel="noopener noreferrer">
           Click
-        </a>{' '}
+          </a>
+        </Link>{' '}
         for source codes.
       </p>
     </section>

@@ -31,28 +31,28 @@ class Home extends Component {
             <ul>
               <li>
                 <Link href="//twitter.com/ogulcaanX">
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener noreferrer">
                     <Twitter />
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="//github.com/olcaneristi">
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener noreferrer">
                     <Github />
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="//linkedin.com/in/ogulcaneristi/">
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener noreferrer">
                     <Linkedin />
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="//medium.com/@olcaneristi">
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener noreferrer">
                     <Medium />
                   </a>
                 </Link>
