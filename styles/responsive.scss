@@ -1,11 +1,24 @@
 @media (max-width: 480px) {
+
+
   header {
     width: 95% !important;
     padding-bottom: 5px;
     padding-top: 5px;
     nav {
       width: 100% !important;
-
+      #ScrollToTop{
+        a{
+          height: 0px !important;
+          right: 15px !important;
+          #svg-container {
+            svg{
+            width: 20px !important;
+            height: 20px !important;
+            }
+          }
+        }
+      }
       ul {
         width: 100%;
         justify-content: center !important;
@@ -148,7 +161,7 @@
       padding-top: 10px !important;
     }
     p {
-      padding-bottom: 10px !important;
+      padding-bottom: 27px !important;
     }
   }
 }
@@ -160,6 +173,19 @@
     padding-top: 5px;
     nav {
       width: 100% !important;
+
+      #ScrollToTop{
+        a{
+          height: 0px !important;
+          right: 15px !important;
+          #svg-container {
+            svg{
+            width: 20px !important;
+            height: 20px !important;
+            }
+          }
+        }
+      }
 
       ul {
         width: 100%;
@@ -317,6 +343,20 @@
     nav {
       padding-top: 2px;
       padding-bottom: 1px;
+
+      #ScrollToTop{
+        a{
+          height: 10px !important;
+          right: 50px !important;
+          #svg-container {
+            svg{
+            width: 25px !important;
+            height: 25px !important;
+            }
+          }
+        }
+      }
+
       ul {
         justify-content: center !important;
       }
@@ -461,7 +501,7 @@
       padding-top: 10px !important;
     }
     p {
-      padding-bottom: 10px !important;
+      padding-bottom: 25px !important;
       font-size: 18px !important;
     }
     svg {
@@ -474,6 +514,18 @@
   header {
     width: 95% !important;
     nav {
+
+      #ScrollToTop{
+        a{
+          right: 50px !important;
+          #svg-container {
+            svg{
+            width: 28px !important;
+            height: 28px !important;
+            }
+          }
+        }
+      }
       ul {
         li {
           a {
@@ -537,6 +589,16 @@
 @media (max-width: 768px) and (orientation: landscape) {
   header {
     nav {
+      #ScrollToTop{
+        a{
+          #svg-container {
+            svg{
+            width: 23px !important;
+            height: 23px !important;
+            }
+          }
+        }
+      }
       ul {
         li {
           a {
