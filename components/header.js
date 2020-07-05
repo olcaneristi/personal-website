@@ -1,4 +1,5 @@
 import Scrollchor from 'react-scrollchor'
+import ScrollTop from '../components/icons/ScrollTop'
 
 function Header() {
   return (
@@ -18,6 +19,13 @@ function Header() {
             <Scrollchor to="contact">Contacts</Scrollchor>
           </li>
         </ul>
+        <div id="ScrollToTop">
+          <Scrollchor to="#">
+            <a id="scrolltop"> 
+              <ScrollTop/> 
+            </a>
+          </Scrollchor>
+        </div>
       </nav>
     </header>
   )
