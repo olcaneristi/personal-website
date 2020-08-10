@@ -46,7 +46,7 @@ function Resume() {
               </p>
               <p>
                 {' '}
-                I learned HTML, CSS, Javascript, Asp.Net, PHP, SQL and made
+                I learned HTML, CSS, JavaScript, Asp.Net, PHP, SQL and made
                 basic projects. Also I learned Adobe Flash, Dreamweaver,
                 Photoshop programs.
               </p>
