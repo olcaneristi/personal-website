@@ -7,9 +7,9 @@ function About() {
       <p>
         I'm <span className="name">Ogulcan Eristi</span>. I'm Jr. Frontend
         Developer and studying Management Information Systems at Akdeniz
-        University. I'm in ❤️ with Javascript. Also currently learning React and
-        trying to do reactjs projects. My first Reactjs project was to design my
-        website with <i>Nextjs</i> and I think I succeeded. ✌️ You can reach my
+        University. I'm in ❤️ with JavaScript. Also currently learning React and
+        trying to do React projects. My first React project was to design my
+        website with <i>Next.js</i> and I think I succeeded. ✌️ You can reach my
         projects from github for now. I'll add here as soon as possible.
         <br></br> I{' '}
         <Link href={'//twitter.com/ogulcaanX'} prefetch={false}>
