@@ -94,7 +94,7 @@ function Resume() {
           </h1>
           </div>
           <div className="main-col">
-          <a href="//docs.google.com/document/d/1ZpwNkFS-brtZQKtk9DzhTWwG9S72hSOGyJ0jDjEYqOA/edit"
+          <a href="//drive.google.com/file/d/17y7NzuR-ggMlvrmzrNdaXG3ILBxyNTIS/view"
           target="_blank">
           <button className="button2">
             <span>View my Resume 📍</span>
