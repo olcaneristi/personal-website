@@ -3,7 +3,7 @@ import Link from 'next/link'
 function About() {
   return (
     <section id="about" className="contain">
-      <img src="profilepic.jpg" width="175" height="175" alt="Ogulcan Eristi" />
+      <img src="https://user-images.githubusercontent.com/45832621/97811936-d3d7c880-1c8e-11eb-87cd-18094bd7f4b3.png" width="175" height="175" alt="Ogulcan Eristi" />
       <p>
         I'm <span className="name">Ogulcan Eristi</span>. I'm Jr. Frontend
         Developer and studying Management Information Systems at Akdeniz
