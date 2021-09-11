@@ -12,15 +12,15 @@ const Skills = () => {
           <h3>Skills I've experienced</h3>
           <span>* currently learning</span>
         </div>
-        <ul className={styles.itemlist}>
-          {skillsList.map((items, i) => (
-            <Fade bottom>
+        <Fade bottom>
+          <ul className={styles.itemlist}>
+            {skillsList.map((items, i) => (
               <li key={i} className={styles.item}>
                 <SkillCard items={items} />
               </li>
-            </Fade>
-          ))}
-        </ul>
+            ))}
+          </ul>{' '}
+        </Fade>
       </div>
     </section>
   );
