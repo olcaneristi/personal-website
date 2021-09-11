@@ -1,0 +1,41 @@
+@import './globals';
+
+section {
+  padding: 5rem 1rem;
+
+  @include breakpoint(xs) {
+    padding: 3.5rem 1rem;
+  }
+
+  &:nth-last-child(1) {
+    padding: 2rem 1rem;
+  }
+}
+
+@font-face {
+  font-family: 'NunitoSans';
+  src: local('NunitoSans'), url('../assets/fonts/NunitoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NunitoSans';
+  src: local('NunitoSans'), url('../assets/fonts/NunitoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'NunitoSans';
+  background: hsl(225deg 22% 15%) 0%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

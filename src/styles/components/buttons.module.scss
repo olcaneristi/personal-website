@@ -1,0 +1,32 @@
+.btn {
+  background-color: transparent;
+  border-radius: 6px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out, transform 300ms ease-in-out;
+  margin-top: 2rem;
+  font-family: 'NunitoSans', sans-serif;
+  font-weight: 600;
+
+  &__cta {
+    border: 1px solid rgb(173, 239, 236);
+    font-size: 0.9rem;
+
+    a {
+      color: gainsboro;
+      display: block;
+      padding: 1.25rem 1.75rem;
+      letter-spacing: 1px;
+    }
+
+    &:hover {
+      background: #272d3d;
+      box-shadow: 0 1px 8px rgba(135, 155, 245, 0.3);
+    }
+
+    &:focus {
+      transform: translateY(5px);
+    }
+  }
+}

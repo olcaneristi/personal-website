@@ -1,0 +1,87 @@
+@import '../globals/variables';
+
+.header {
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 0 1rem;
+
+  @include breakpoint(sm) {
+    position: sticky;
+    top: 0;
+    background-color: rgba(24, 27, 39, 0.85);
+    backdrop-filter: blur(15px);
+    filter: none !important;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include breakpoint(sm) {
+      height: 4rem;
+    }
+  }
+  .list {
+    .elements {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .items {
+      color: white;
+      display: flex;
+      align-items: center;
+      transition: visibility 250ms ease, opacity 300ms ease, transform 400ms ease-in-out;
+      opacity: 0;
+      overflow: hidden;
+      visibility: hidden;
+      transform: translateX(-10px);
+
+      &__show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(10px);
+      }
+
+      li {
+        display: inline-flex;
+        a {
+          margin: 10px;
+          text-decoration: none;
+          color: #d7e0eb;
+          font-size: 1.1rem;
+          letter-spacing: 1.5px;
+          transition: color 200ms ease-in-out;
+
+          @include breakpoint(xs) {
+            font-size: 1rem;
+          }
+
+          &:hover {
+            color: #adefd1ff;
+          }
+        }
+      }
+    }
+  }
+
+  .menu {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+
+    svg {
+      width: 2em;
+      height: 2em;
+    }
+  }
+}

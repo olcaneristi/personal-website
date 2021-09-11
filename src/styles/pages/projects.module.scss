@@ -1,0 +1,129 @@
+@import '../globals/variables';
+
+.projects {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+
+    .title {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2.5rem;
+
+      h2 {
+        font-size: 2.5rem;
+        padding-right: 1rem;
+        color: #98b4d4;
+
+        @include breakpoint(sm) {
+          font-size: 2rem;
+        }
+
+        @include breakpoint(xs) {
+          font-size: 1.5rem;
+          padding-right: 0.5rem;
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        color: #bcbdce;
+
+        @include breakpoint(xs) {
+          font-size: 0.8rem;
+        }
+
+        span {
+          padding-left: 0.3rem;
+          svg {
+            display: flex;
+            width: 1.3em;
+            height: 1.3em;
+          }
+        }
+      }
+    }
+
+    ul {
+      flex-wrap: wrap;
+      display: flex;
+      max-width: 100%;
+
+      li {
+        width: calc((100% / 2) - 10px);
+        background: rgba(41, 35, 65, 0.3);
+        margin: 0 5px 2rem 5px;
+        padding: 2rem;
+        border-radius: 6px;
+        border: 1px solid #9a9bb6;
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+        position: relative;
+        transition: background 300ms ease-in-out, box-shadow 250ms ease-in-out;
+
+        &:hover {
+          background: rgba(44, 37, 70, 0.7);
+          box-shadow: 0 1px 8px rgb(135 155 245 / 30%);
+        }
+
+        @include breakpoint(sm) {
+          width: 100% !important;
+          margin-right: 0;
+          margin-left: 0;
+
+          &:nth-last-child(1) {
+            margin-bottom: 0;
+          }
+        }
+
+        @include breakpoint(xs) {
+          padding: 1rem;
+        }
+
+        &:nth-child(1) {
+          a {
+            h3 {
+              color: #ee944b;
+            }
+          }
+        }
+        &:nth-child(2) {
+          a {
+            h3 {
+              color: #1ce783;
+            }
+          }
+        }
+        &:nth-child(3) {
+          a {
+            h3 {
+              background: linear-gradient(to right, #f32170, #ff6b08);
+              -webkit-text-fill-color: transparent;
+              -webkit-background-clip: text;
+
+              span {
+                background: none;
+                color: rgb(196, 117, 212);
+              }
+            }
+          }
+        }
+
+        &:nth-child(4) {
+          a {
+            h3 {
+              color: #1da1f2;
+            }
+          }
+        }
+      }
+    }
+  }
+}

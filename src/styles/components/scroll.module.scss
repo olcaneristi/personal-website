@@ -1,0 +1,29 @@
+.scrollTop {
+  display: flex;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  opacity: 0;
+  animation: fadeScroll 400ms ease-in-out forwards;
+  background: #181b27;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid gainsboro;
+  cursor: pointer;
+  z-index: 99;
+
+  svg {
+    color: gainsboro;
+    width: 1.4em;
+    height: 1.4em;
+  }
+}
+
+@keyframes fadeScroll {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

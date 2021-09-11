@@ -1,0 +1,100 @@
+@import '../globals/variables';
+
+.repoOverview {
+  min-height: 135px;
+
+  h3 {
+    padding-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+
+    @include breakpoint(xs) {
+      font-size: 1rem;
+    }
+
+    span {
+      margin-left: 0.5rem;
+      display: flex;
+
+      svg {
+        width: 0.9rem;
+        height: 0.9rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  p {
+    color: rgb(209, 207, 207);
+    padding-bottom: 3rem;
+    font-size: 0.94rem;
+    line-height: 1.4;
+
+    @include breakpoint(xs) {
+      font-size: 0.9rem;
+    }
+  }
+
+  .repoDetails {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+    flex-wrap: wrap;
+
+    @include breakpoint(xs) {
+      bottom: 1rem;
+    }
+
+    p {
+      padding-bottom: 0;
+      padding-right: 1rem;
+      color: #a7a8bd;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+
+      svg {
+        display: flex;
+        align-items: center;
+        margin-right: 0.25rem;
+        fill: #f1e05a;
+      }
+    }
+
+    span {
+      display: inline-flex;
+      padding-right: 0.7rem;
+      font-size: 14px;
+      font-weight: 600;
+      align-items: center;
+      color: #8b949e;
+
+      svg {
+        display: flex;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-right: 0.08rem;
+        margin-bottom: 2.5px;
+      }
+    }
+  }
+}
+
+.accessRepo {
+  position: absolute;
+  right: 2rem;
+  bottom: 1.75rem;
+
+  @include breakpoint(xs) {
+    bottom: 0.8rem;
+    right: 1rem;
+  }
+
+  svg {
+    width: 1.3em;
+    height: 1.3em;
+    color: #a7a8bd;
+  }
+}
