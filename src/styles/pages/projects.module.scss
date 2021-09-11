@@ -105,7 +105,7 @@
           a {
             h3 {
               background: linear-gradient(to right, #f32170, #ff6b08);
-              -webkit-text-fill-color: transparent;
+              -webkit-text-fill-color: rgba (0, 0, 0, 0.0001);
               -webkit-background-clip: text;
 
               span {
