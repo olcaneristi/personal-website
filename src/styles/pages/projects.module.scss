@@ -104,14 +104,7 @@
         &:nth-child(3) {
           a {
             h3 {
-              background: linear-gradient(to right, #f32170, #ff6b08);
-              -webkit-text-fill-color: rgba (0, 0, 0, 0.0001);
-              -webkit-background-clip: text;
-
-              span {
-                background: none;
-                color: rgb(196, 117, 212);
-              }
+              color: rgb(196, 117, 212);
             }
           }
         }
