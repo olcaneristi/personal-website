@@ -1,16 +1,22 @@
 import './styles/index.scss';
 import Navbar from './components/Navbar';
-import { Contact, Footer, Hero, Skills, Projects } from './containers';
+import Layout from './containers/Layout';
+import { Footer } from './containers';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import NotFound from './components/404';
 
 function App() {
   return (
     <main className="website">
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Layout} />
+          <Route path="/404" component={NotFound} />
+          <Redirect to="/404" />
+        </Switch>
+        <Footer />
+      </Router>
     </main>
   );
 }
