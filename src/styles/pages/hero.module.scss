@@ -39,7 +39,7 @@
       font-size: 3rem;
       max-width: 720px;
       color: #e8e8e8;
-      animation: growH2 1s 2s ease forwards;
+      animation: growH2 1s 1.5s ease forwards;
       opacity: 0;
 
       @include breakpoint(sm) {
@@ -56,7 +56,7 @@
       font-size: 2.5rem;
       max-width: 720px;
       color: #adefd1ff;
-      animation: growH3 1s 3s ease forwards;
+      animation: growH3 1s 2.5s ease forwards;
       opacity: 0;
 
       @include breakpoint(sm) {
@@ -77,7 +77,7 @@
       color: #98b4d4;
       font-size: 1.05rem;
       opacity: 0;
-      animation: growTitle 1s 0.8s ease forwards;
+      animation: growTitle 1s 0.6s ease forwards;
 
       @include breakpoint(sm) {
         justify-content: center;
@@ -104,7 +104,7 @@
       max-width: 550px;
       color: gainsboro;
       font-size: 1.02rem;
-      animation: growContent 1s 4s ease forwards;
+      animation: growContent 1s 3.5s ease forwards;
       opacity: 0;
 
       @include breakpoint(sm) {
@@ -135,7 +135,7 @@
   }
 
   .btn {
-    animation: growButton 1.2s 5s ease forwards;
+    animation: growButton 1.2s 4.5s ease forwards;
     opacity: 0;
   }
 
@@ -147,7 +147,7 @@
     transition: filter 300ms ease;
     filter: grayscale(60%);
     opacity: 0;
-    animation: growImage 1s 0.2s forwards;
+    animation: growImage 0.8s 0.1s forwards;
 
     @include breakpoint(sm) {
       filter: none;
