@@ -28,8 +28,8 @@ const Projects = () => {
           {data
             ?.filter(x => x.id === 288119806 || x.id === 285895390 || x.id === 291145655 || x.id === 308606679)
             .map(repos => (
-              <Fade bottom>
-                <li key={repos.id}>
+              <Fade bottom key={repos.id}>
+                <li>
                   <ProjectCard repos={repos} />
                 </li>
               </Fade>
