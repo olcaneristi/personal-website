@@ -16,6 +16,7 @@ section {
   font-family: 'NunitoSans';
   src: local('NunitoSans'), url('../assets/fonts/NunitoSans-Regular.ttf') format('truetype');
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 
@@ -23,6 +24,7 @@ section {
   font-family: 'NunitoSans';
   src: local('NunitoSans'), url('../assets/fonts/NunitoSans-Bold.ttf') format('truetype');
   font-weight: bold;
+  font-display: swap;
   font-style: normal;
 }
 
