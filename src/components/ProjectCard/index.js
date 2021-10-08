@@ -9,7 +9,7 @@ const ProjectCard = ({ repos }) => {
     <>
       <a
         className={styles.repoOverview}
-        href={repos?.homepage.length > 0 ? repos?.homepage : repos?.html_url}
+        href={repos?.homepage?.length > 0 ? repos?.homepage : repos?.html_url}
         target="_blank"
         rel="noopener noreferrer"
       >
