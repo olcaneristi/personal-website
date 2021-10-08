@@ -26,7 +26,7 @@ const Projects = () => {
           {isLoading && <p> Loading.. </p>}
           {error && <p>Projects couldn't loaded.</p>}
           {data
-            ?.filter(x => x.id === 288119806 || x.id === 285895390 || x.id === 291145655 || x.id === 308606679)
+            ?.filter(x => x.id === 288119806 || x.id === 285895390 || x.id === 291145655 || x.id === 414820976 || x.id === 308606679)
             .map(repos => (
               <Fade bottom key={repos.id}>
                 <li>
