@@ -73,6 +73,10 @@
           box-shadow: 0 1px 8px rgb(135 155 245 / 30%);
         }
 
+        a {
+          color: rgb(252, 199, 199);
+        }
+
         @include breakpoint(sm) {
           width: 100% !important;
           margin-right: 0;
@@ -94,14 +98,14 @@
             }
           }
         }
-        &:nth-child(2) {
+        &:nth-child(3) {
           a {
             h3 {
               color: #1ce783;
             }
           }
         }
-        &:nth-child(3) {
+        &:nth-child(4) {
           a {
             h3 {
               color: rgb(196, 117, 212);
@@ -109,7 +113,7 @@
           }
         }
 
-        &:nth-child(4) {
+        &:nth-child(5) {
           a {
             h3 {
               color: #1da1f2;
