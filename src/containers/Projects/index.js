@@ -9,6 +9,7 @@ import Fade from 'react-reveal/Fade';
 const Projects = () => {
   const { data, error, isLoading } = useQuery('repositories', api.getRepos);
   const ownerURL = 'https://github.com/olcaneristi/';
+  const sortItems = (a, b) => (a.stargazers_count < b.stargazers_count ? 1 : -1);
 
   return (
     <section className={styles.projects} id="projects">
@@ -26,7 +27,15 @@ const Projects = () => {
           {isLoading && <p> Loading.. </p>}
           {error && <p>Projects couldn't loaded.</p>}
           {data
-            ?.filter(x => x.id === 288119806 || x.id === 285895390 || x.id === 291145655 || x.id === 414820976 || x.id === 308606679)
+            ?.filter(
+              x =>
+                x.id === 288119806 ||
+                x.id === 285895390 ||
+                x.id === 291145655 ||
+                x.id === 414820976 ||
+                x.id === 308606679,
+            )
+            .sort(sortItems)
             .map(repos => (
               <Fade bottom key={repos.id}>
                 <li>
