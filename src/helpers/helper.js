@@ -85,7 +85,7 @@ export const skillsList = [
     icon: <IoLogoReact fill="#61dafb" />,
   },
   {
-    name: 'TypeScript',
+    name: 'TypeScript *',
     icon: <SiTypescript fill="#3178c6" />,
   },
   {
@@ -93,7 +93,7 @@ export const skillsList = [
     icon: <SiRedux fill="#764abc" />,
   },
   {
-    name: 'Storybook*',
+    name: 'Storybook',
     icon: <SiStorybook fill="#FF4785" />,
   },
 ];
