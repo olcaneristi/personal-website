@@ -1,10 +1,8 @@
-import { ImGit } from 'react-icons/im';
 import {
   IoLogoJavascript,
   IoLogoReact,
   IoLogoHtml5,
   IoLogoCss3,
-  IoLogoNodejs,
   IoLogoSass,
   IoLogoGithub,
   IoLogoTwitter,

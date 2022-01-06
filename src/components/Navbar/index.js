@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { navLinks } from '../../helpers/helper';
 import styles from '../../styles/pages/nav.module.scss';
-import { HiMenuAlt2 } from 'react-icons/hi';
-import { MdClose } from 'react-icons/md';
+import UseAnimations from 'react-useanimations';
+import menu4 from 'react-useanimations/lib/menu4';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
   const handleClick = () => {
-    setShow(!show);
+    setShow(prev => !prev);
   };
   return (
     <header className={styles.header}>
@@ -26,7 +26,7 @@ const Navbar = () => {
               ))}
             </ol>
             <button onClick={handleClick} className={styles.menu}>
-              {show ? <MdClose color="white" /> : <HiMenuAlt2 color="white" />}
+              <UseAnimations animation={menu4} size={32} strokeColor="white" />
             </button>
           </div>
         </nav>

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../../styles/components/scroll.module.scss';
-import { FiArrowUp } from 'react-icons/fi';
+import UseAnimations from 'react-useanimations';
+import arrowUp from 'react-useanimations/lib/arrowUp';
 
-const ScrollToTop = ({ title }) => {
+const ScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {
@@ -16,7 +17,7 @@ const ScrollToTop = ({ title }) => {
   return (
     showScroll && (
       <button className={styles.scrollTop} onClick={scrollTop}>
-        <FiArrowUp />
+        <UseAnimations animation={arrowUp} size={24} strokeColor="white" />
       </button>
     )
   );
