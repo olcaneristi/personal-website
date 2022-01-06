@@ -33,6 +33,7 @@ Built with <a href="https://reactjs.org/" target="_blank">React.js v17</a> and <
 | react-icons             | ^4.2.0  |
 | react-query             | ^3.21.1 |
 | react-reveal            | ^1.2.2  |
+| react-useanimations     | ^2.0.8  |
 | react-scroll            | ^1.8.4  |
 | prettier                | ^2.4.0  |
 | sass                    | ^1.39.0 |
