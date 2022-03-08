@@ -26,7 +26,7 @@ const Navbar = () => {
               ))}
             </ol>
             <button onClick={handleClick} className={styles.menu}>
-              <UseAnimations animation={menu4} size={32} strokeColor="white" />
+              <UseAnimations animation={menu4} size={32} speed={1.6} strokeColor="white" />
             </button>
           </div>
         </nav>
