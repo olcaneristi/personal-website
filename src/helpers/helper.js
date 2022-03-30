@@ -10,7 +10,7 @@ import {
   IoLogoMedium,
   IoLogoInstagram,
 } from 'react-icons/io5';
-import { SiRedux, SiStorybook, SiTypescript } from 'react-icons/si';
+import { SiStorybook, SiTypescript } from 'react-icons/si';
 import SuperpeerSVG from '../assets/icons/Superpeer';
 
 export const socialMedia = [
@@ -71,24 +71,24 @@ export const skillsList = [
     icon: <IoLogoCss3 fill="#4d81fa" />,
   },
   {
-    name: 'JavaScript',
-    icon: <IoLogoJavascript fill="#f7df1e" />,
-  },
-  {
     name: 'SASS',
     icon: <IoLogoSass fill="#cf649a" />,
   },
   {
-    name: 'ReactJS',
+    name: 'JavaScript',
+    icon: <IoLogoJavascript fill="#f7df1e" />,
+  },
+  {
+    name: 'React',
     icon: <IoLogoReact fill="#61dafb" />,
   },
   {
-    name: 'TypeScript *',
+    name: 'TypeScript*',
     icon: <SiTypescript fill="#3178c6" />,
   },
   {
-    name: 'Redux *',
-    icon: <SiRedux fill="#764abc" />,
+    name: 'React Native*',
+    icon: <IoLogoReact fill="#fff" />,
   },
   {
     name: 'Storybook',
