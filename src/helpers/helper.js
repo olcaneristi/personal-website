@@ -36,7 +36,7 @@ export const socialMedia = [
   },
   {
     name: 'Twitter',
-    url: 'https://twitter.com/ogulcaanX',
+    url: 'https://twitter.com/olcaneristi',
     icon: <IoLogoTwitter />,
   },
   {
