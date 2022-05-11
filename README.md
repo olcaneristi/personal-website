@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  The second version of <a href="https://ogulcaneristi.com" target="_blank">ogulcaneristi.com</a>. I used React Query for data fetching and error handling. With this experience, I realized that we can do data fetching very easily. With parameters such as loading, error, I was able to handle the errors that may occur during data fetching and show them to the user.
+  The second version of <a href="https://ogulcaneristi.com" target="_blank">ogulcaneristi.com</a>. I used React Query for data fetching and error handling. I experienced that we can fetch data very simple. I was able to handle the errors that may occur during data fetching and show them to the user with parameters such as loading, error.
 </p>
 
 <p align="center">
