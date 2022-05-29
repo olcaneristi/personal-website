@@ -20,7 +20,7 @@ const Contact = () => {
         <h2>Get In Touch</h2>
         <Fade bottom>
           <p>
-            I’m not currently looking for any new opportunities but my inbox is always open for you!
+            I’m currently looking for any new opportunities. My inbox is always open for you!
             Whether you have a question or just want to say hi, I'll be happy to help and talk!
           </p>
           <button onClick={clickHandler} className={`${styles.btn} ${styles.btn__cta}`}>
