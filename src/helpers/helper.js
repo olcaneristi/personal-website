@@ -10,7 +10,7 @@ import {
   IoLogoMedium,
   IoLogoInstagram,
 } from 'react-icons/io5';
-import { SiStorybook, SiTypescript } from 'react-icons/si';
+import { SiSpotify, SiStorybook, SiTypescript } from 'react-icons/si';
 import SuperpeerSVG from '../assets/icons/Superpeer';
 
 export const socialMedia = [
@@ -43,6 +43,11 @@ export const socialMedia = [
     name: 'Instagram',
     url: 'https://instagram.com/olcaneristi',
     icon: <IoLogoInstagram />,
+  },
+  {
+    name: 'Spotify',
+    url: 'https://open.spotify.com/user/neurtal',
+    icon: <SiSpotify />,
   },
 ];
 
