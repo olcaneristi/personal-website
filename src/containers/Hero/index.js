@@ -3,7 +3,7 @@ import styles from '../../styles/pages/hero.module.scss';
 import { ScrollToTop } from '../../hooks/';
 
 const Hero = () => {
-  const resumeURL = 'https://drive.google.com/file/d/13VtWCH-8xt8pHOCvDka9PnvRv8HosmIx/view';
+  const resumeURL = 'https://drive.google.com/file/d/1n-XgLch0pIKQP06Kg9T8N9grEGi4EBEf/view';
   const profilePhoto = 'https://avatars.githubusercontent.com/u/45832621?v=4';
 
   return (
