@@ -10,7 +10,6 @@ const Skills = () => {
       <div className={styles.container}>
         <div className={styles.title}>
           <h3>Skills I've experienced</h3>
-          <span>* improving myself</span>
         </div>
         <Fade bottom>
           <ul className={styles.itemlist}>

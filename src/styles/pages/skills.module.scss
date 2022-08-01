@@ -16,6 +16,7 @@
     h3 {
       font-size: 2.5rem;
       padding-right: 1rem;
+      margin-top: 1rem;
       color: #98b4d4;
 
       @include breakpoint(sm) {
@@ -46,19 +47,31 @@
     justify-content: center;
 
     .item {
-      padding: 1rem 1.5rem;
       opacity: 0;
+      margin: 1rem;
       animation-name: renderItems;
       animation-timing-function: ease-in-out;
       animation-duration: 0.5s;
       animation-fill-mode: forwards;
+      width: calc(20% - 2rem);
+      border: 1px solid rgba(201, 202, 236, 0.4);
+      border-radius: 6px;
+
+      @include breakpoint(md) {
+        width: calc(25% - 2rem);
+      }
+
+      @include breakpoint(sm) {
+        width: calc(33.33% - 2rem);
+      }
 
       @include breakpoint(xs) {
-        padding: 1rem 0.3rem;
+        width: calc(50% - 2rem);
+        margin: 0.5rem;
       }
 
       @include breakpoint(xxs) {
-        width: 75%;
+        width: calc(100% - 2rem) !important;
       }
     }
   }
