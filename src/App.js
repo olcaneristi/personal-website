@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 export const initGA = () => {
   const TRACKING_ID = 'G-13NNJ1F84N';
-  ReactGA.initialize(TRACKING_ID); // put your tracking id here
+  ReactGA.initialize(TRACKING_ID);
   ReactGA.pageview(window.location.pathname + window.location.search);
 };
 function App() {
