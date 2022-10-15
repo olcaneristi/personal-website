@@ -3,11 +3,11 @@
 </div>
 
 <h1 align="center">
-  ogulcaneristi.com - v2
+  ogulcaneristi.dev - v2
 </h1>
 
 <p align="center">
-  The second version of <a href="https://ogulcaneristi.com" target="_blank">ogulcaneristi.com</a>. I used React Query for data fetching and error handling. I experienced that we can fetch data very simple. I was able to handle the errors that may occur during data fetching and show them to the user with parameters such as loading, error.
+  The second version of <a href="https://ogulcaneristi.dev" target="_blank">ogulcaneristi.dev</a>. I used React Query for data fetching and error handling. I experienced that we can fetch data very simple. I was able to handle the errors that may occur during data fetching and show them to the user with parameters such as loading, error.
 </p>
 
 <p align="center">
