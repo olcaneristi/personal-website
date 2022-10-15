@@ -16,7 +16,7 @@ const Hero = () => {
           <h2>Ogulcan Eristi.</h2>
           <h3>I build beautiful things for the web!</h3>
           <p>
-            I'm a <span>Frontend Developer</span> building pretty UI's for users to have great experiences, 
+            I'm a <span>Frontend Developer</span> who builds pretty UI's for users to have great experiences, 
             trying to improve myself on the web & mobile and enjoys it. I'm known for my calmness but I get 
             very excited about new ideas.
           </p>
