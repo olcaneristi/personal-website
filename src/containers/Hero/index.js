@@ -14,7 +14,7 @@ const Hero = () => {
             <span className={styles.heymoji}>👋🏼</span>Hey there! My name is
           </h4>
           <h2>Ogulcan Eristi.</h2>
-          <h3>I build beautiful things for the web!</h3>
+          <h3>I build beautiful things for the web & mobile!</h3>
           <p>
             I'm a <span>Frontend Developer</span> with 3 years of relevant work experience in building visually appealing and user-friendly interfaces for
             web and mobile applications. Passionate about continuous learning and self-improvement, I’m dedicated to enhancing user
