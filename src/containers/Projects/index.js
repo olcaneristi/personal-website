@@ -4,7 +4,6 @@ import * as api from '../../api';
 import ProjectCard from '../../components/ProjectCard/';
 import styles from '../../styles/pages/projects.module.scss';
 import { RiArrowRightUpLine } from 'react-icons/ri';
-import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
   const { data, error, isLoading } = useQuery('repositories', api.getRepos);
@@ -38,11 +37,9 @@ const Projects = () => {
             )
             .sort(sortItems)
             .map(repos => (
-              <Fade bottom key={repos.id}>
                 <li>
                   <ProjectCard repos={repos} />
                 </li>
-              </Fade>
             ))}
         </ul>
       </div>
