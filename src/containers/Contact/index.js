@@ -4,7 +4,6 @@ import { useDetectOutsideClick } from '../../hooks';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Mailto } from '../../hooks';
 import { RiArrowRightUpLine } from 'react-icons/ri';
-import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   const dropdownRef = useRef(null);
@@ -18,7 +17,6 @@ const Contact = () => {
     <section className={styles.contact} id="contact">
       <div className={styles.container}>
         <h2>Get In Touch</h2>
-        <Fade bottom>
           <p>
             I’m not currently looking for any new opportunities. My inbox is always open for you!
             Whether you have a question or just want to say hi, I'll be happy to help and talk!
@@ -26,7 +24,6 @@ const Contact = () => {
           <button onClick={clickHandler} className={`${styles.btn} ${styles.btn__cta}`}>
             Say Hello! <span>🤟</span>
           </button>
-        </Fade>
         <nav ref={dropdownRef} className={`${styles.menu} ${isActive ? `${styles.menu__active}` : ''}`}>
           <ul>
             <li>
